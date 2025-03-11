@@ -49,7 +49,7 @@ header {
 
 .header-top {
     display: flex;
-    padding: 10px 350px;
+    padding: 10px 200px;
 
 }
 
@@ -179,4 +179,38 @@ main {
 
 .foto:hover {
     display: none;
+}
+
+/* footer */
+
+
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    padding: 10px 200px;
+    justify-content: space-between;
+    background-color: #1A1A1A;
+    color: white;
+}
+
+
+.footer-container .srl {
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.footer-container span {
+
+    font-size: smaller;
+    padding-right: 8px;
+}
+
+.icone-footer {
+    font-size: 1.5rem;
+}
+
+.trovaci {
+    font-weight: 700;
+    padding-bottom: 10px;
 }
