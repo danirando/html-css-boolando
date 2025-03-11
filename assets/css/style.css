@@ -181,6 +181,10 @@ main {
     display: none;
 }
 
+.type.special {
+    left: 0;
+}
+
 /* footer */
 
 
