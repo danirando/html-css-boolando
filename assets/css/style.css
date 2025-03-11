@@ -44,7 +44,7 @@ header {
     top: 0;
     width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    z-index: 10;
 }
 
 .header-top {
@@ -167,4 +167,8 @@ header {
 .prezzoscontato {
     font-weight: 600;
     color: red;
+}
+
+.foto:hover {
+    display: none;
 }
