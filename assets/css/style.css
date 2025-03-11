@@ -149,3 +149,22 @@ header {
     background-color: green;
     color: white;
 }
+
+.marca {
+    font-size: 0.8rem;
+}
+
+.indumento {
+    font-weight: 600
+}
+
+.prezzoprecedente {
+    margin-left: 9px;
+    text-decoration: line-through;
+
+}
+
+.prezzoscontato {
+    font-weight: 600;
+    color: red;
+}
