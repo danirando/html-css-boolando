@@ -30,3 +30,122 @@ body {
     background-color: #ff000022;
     border: 2px dashed red;
 }
+
+.border {
+    border: 1px dashed black;
+}
+
+/* HEADER */
+
+header {
+    background-color: #FF5B00;
+    padding-bottom: 2px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.header-top {
+    display: flex;
+    padding: 10px 350px;
+
+}
+
+.logo,
+.link,
+.icone {
+    vertical-align: middle;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.logo {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.logo,
+.icone {}
+
+.icone {
+    justify-content: flex-end;
+    gap: 20px;
+    color: white;
+}
+
+.link {
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.link span {
+    color: white;
+    font-weight: 600;
+    margin-right: 10px;
+
+}
+
+.logo img {
+    width: 20%;
+}
+
+.logo {
+    justify-content: center;
+}
+
+/* Main */
+
+.container {
+    margin: 50px auto;
+    width: 1080px;
+}
+
+.card {
+    height: 1000px;
+    height: 650px;
+    width: 450.21px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.card * {
+    position: absolute;
+}
+
+.foto {
+    height: 650px;
+}
+
+.cuore {
+    top: 13px;
+    right: 0;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.cuore:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.sconto {
+    bottom: 30px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.type {
+    padding: 5px 10px;
+    bottom: 30px;
+    left: 80px;
+    background-color: green;
+    color: white;
+}
